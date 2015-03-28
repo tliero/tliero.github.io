@@ -6,12 +6,13 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>com.palantir.less.lessBuilder</name>
+			<name>org.eclipse.xtext.ui.shared.xtextBuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>com.palantir.less.lessNature</nature>
+		<nature>net.vtst.ow.eclipse.less.nature</nature>
+		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
 	</natures>
 </projectDescription>
