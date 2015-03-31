@@ -1,0 +1,10 @@
+First custom Bootstrap compile (with http://marketplace.eclipse.org/content/eclipse-plugin-less on Ubuntu)
+--> custom.bootstrap.less has to be opened, when running the run configuration!
+Run configuration:
+  LESS command: lessc
+  [X] Strict imports
+  [X] Compress the generated CSS file
+  Input file: /tliero/less/custom.bootstrap.less
+  Output file: /tliero/bootstrap-custom/css/custom.bootstrap.css 
+
+On Windows setup for use with eclipse LESS builder https://github.com/palantir/eclipse-less, see .settings/com.palantir.less.prefs
