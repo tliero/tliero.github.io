@@ -10,15 +10,9 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
-		<buildCommand>
-			<name>com.palantir.less.lessBuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>net.vtst.ow.eclipse.less.nature</nature>
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
-		<nature>com.palantir.less.lessNature</nature>
 	</natures>
 </projectDescription>
