@@ -2,12 +2,6 @@ body {
 	margin-top: 75px;
 }
 
-@media (min-width : 768px) { /* tablets and up */
-	.group2 {
-		text-align: right;
-	}
-}
-
 footer {
 	margin: 10px 0;
 }
@@ -27,4 +21,17 @@ footer {
 
 .social-buttons button {
 	margin-top: 5px;
+}
+
+a.logo-link {
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+/* Media Queries */
+@media ( min-width : 768px) {
+	.group2 {
+		text-align: right;
+	}
 }
